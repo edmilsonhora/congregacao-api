@@ -10,4 +10,12 @@ namespace ESH_Modelo.DomainModel
     {
         public int Id { get; set; }
     }
+
+    public interface IRepositoryBase<T> where T : EntityBase
+    {
+        void Salvar(T entity);
+        void Excluir(T entity);
+        T ObterPor(int id);
+        List<T> ObterTodos();
+    }
 }
