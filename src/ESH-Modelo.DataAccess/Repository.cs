@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ESH_Modelo.DataAccess
 {
-    public class Class1
+   public class Repository
     {
     }
 }
