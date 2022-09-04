@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ESH_Modelo.DomainModel
 {
-    public class Class1
+   public abstract class EntityBase
     {
+        public int Id { get; set; }
     }
 }
